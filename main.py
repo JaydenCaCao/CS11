@@ -1,5 +1,5 @@
 wawa
 
 print("Hello World!")
-user_name=i("What is your name?"
-print(wawa)
+user_name=input("What is your name?")
+print(user_name)
