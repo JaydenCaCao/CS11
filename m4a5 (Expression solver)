@@ -1,0 +1,5 @@
+a = input("Enter your 'a' value")
+b = input("enter your 'b' value")
+minus = a -- b
+mult = a*b
+print("(a-b)+(a*b) ="  + (minus)+(mult))
