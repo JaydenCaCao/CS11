@@ -1,5 +1,12 @@
-a = input("Enter your 'a' value")
-b = input("enter your 'b' value")
-minus = a -- b
-mult = a*b
-print("(a-b)+(a*b) ="  + (minus)+(mult))
+# int so we can subtract and multiply later
+
+a = int(input("Enter your 'a' value"))
+b = int(input("enter your 'b' value"))
+
+minus = (a - b)
+mult = (a*b)
+
+# Convert back to string to concatenate 
+
+total = str(minus + mult)
+print("(a-b)+(a*b) =" + total)
