@@ -1,3 +1,4 @@
+# My name: Jayden Cao
 # This function will add two numbers together.
 def sum(num1, num2):
     return num1 + num2
